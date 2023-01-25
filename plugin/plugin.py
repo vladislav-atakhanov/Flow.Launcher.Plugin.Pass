@@ -121,7 +121,7 @@ class KeePassPlugin(Flox):
         self.add_item(
             title="Copy password to clipboard",
             subtitle=f"Generate {length}-symbol length password",
-            method="copy_text",
+            method="generate_and_copy_password",
             parameters=[length],
             icon="images/icon.png",
         )
