@@ -118,14 +118,17 @@ class KeePassPlugin(Flox):
     def generate_password(self, length=None):
         if length is None:
             length = 20
-        password = KeePass.generate_password(length)
         self.add_item(
             title="Copy password to clipboard",
             subtitle=f"Generate {length}-symbol length password",
-            method="copy",
-            parameters=[password],
+            method="copy_text",
+            parameters=[length],
             icon="images/icon.png",
         )
+
+    def generate_and_copy_password(self, length):
+        password = KeePass.generate_password(length)
+        self.copy_text(password)
 
     def get_password(self, title):
         kp = self.open_database()
@@ -142,7 +145,7 @@ class KeePassPlugin(Flox):
                 self.add_item(
                     title=t,
                     subtitle=f"Copy password to clipboard",
-                    method="copy",
+                    method="copy_text",
                     parameters=[password],
                     icon="images/key.png",
                     context=[str(entry.uuid), t],

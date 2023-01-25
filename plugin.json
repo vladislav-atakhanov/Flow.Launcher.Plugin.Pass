@@ -1,8 +1,8 @@
 {
     "ID": "B69948F0F01A4ED4974E43044D3056BB",
     "ActionKeyword": "pass",
-    "Name": "KeePass Plugin",
-    "Description": "Get password and manage KeePass database",
+    "Name": "KeePass",
+    "Description": "Get password and manage KeePass database.",
     "Author": "Vladislav Atakhanov @vladislav-atakhanov",
     "Version": "1.0.0",
     "Language": "python",
