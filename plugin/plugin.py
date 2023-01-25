@@ -2,7 +2,7 @@ from pathlib import Path
 from typing import Union
 import pyperclip
 from flox import Flox, ICON_APP_ERROR
-from .keepass import KeePass, Entry
+from .keepass import KeePass
 
 
 def unpack_list(lst, count):
@@ -121,7 +121,7 @@ class KeePassPlugin(Flox):
         password = KeePass.generate_password(length)
         self.add_item(
             title="Copy password to clipboard",
-            subtitle=f"New {length}-symbol length password",
+            subtitle=f"Generate {length}-symbol length password",
             method="copy",
             parameters=[password],
             icon="images/icon.png",
