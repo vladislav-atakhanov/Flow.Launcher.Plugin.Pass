@@ -100,6 +100,9 @@ class KeePassPlugin(Flox):
         path = self.settings.get("kdbx_path", None)
         password = self.settings.get("kdbx_password", None)
 
+        if path is None:
+            return self.show_error(f"Database path is undefined")
+
         path = Path(path)
         if not path.exists():
             return self.show_error(f"Can not open {path}")
