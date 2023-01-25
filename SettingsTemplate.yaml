@@ -1,0 +1,11 @@
+body:
+  - type: input
+    attributes:
+      name: kdbx_path
+      label: 'Path to .kbdx file:'
+      description: Location of .kbdx
+  - type: passwordBox
+    attributes:
+      name: kdbx_password
+      label: 'Password for .kdbx:'
+      description: Password

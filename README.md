@@ -1,1 +1,1 @@
-# Flow.Launcher.Plugin.KeePass
+# Flow.Plugin.UUID
