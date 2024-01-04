@@ -1,12 +1,12 @@
 {
-  "ID": "B69948F0F01A4ED4974E43044D3056BB",
-  "ActionKeyword": "pass",
-  "Name": "pass",
-  "Description": "Password manager",
-  "Author": "Vladislav Atakhanov @vladislav-atakhanov",
-  "Version": "1.0.0",
-  "Language": "javascript",
-  "Website": "https://github.com/vladislav-atakhanov/Flow.Launcher.Plugin.Pass",
-  "IcoPath": "images\\icon.png",
-  "ExecuteFileName": "main.js"
+    "ID": "B69948F0F01A4ED4974E43044D3056BB",
+    "ActionKeyword": "pass",
+    "Name": "Password manager",
+    "Description": "",
+    "Author": "Vladislav Atakhanov @vladislav-atakhanov",
+    "Version": "1.0.0",
+    "Language": "javascript",
+    "Website": "https://github.com/vladislav-atakhanov/Flow.Launcher.Plugin.Pass",
+    "IcoPath": "assets\\key.png",
+    "ExecuteFileName": "main.js"
 }
