@@ -1,12 +1,12 @@
 {
-    "ID": "B69948F0F01A4ED4974E43044D3056BB",
-    "ActionKeyword": "pass",
-    "Name": "KeePass",
-    "Description": "Get password and manage KeePass database.",
-    "Author": "Vladislav Atakhanov @vladislav-atakhanov",
-    "Version": "1.0.0",
-    "Language": "python",
-    "Website": "https://github.com/vladislav-atakhanov/Flow.Launcher.Plugin.KeePass",
-    "IcoPath": "images\\icon.png",
-    "ExecuteFileName": "main.py"
+  "ID": "B69948F0F01A4ED4974E43044D3056BB",
+  "ActionKeyword": "pass",
+  "Name": "pass",
+  "Description": "Password manager",
+  "Author": "Vladislav Atakhanov @vladislav-atakhanov",
+  "Version": "1.0.0",
+  "Language": "javascript",
+  "Website": "https://github.com/vladislav-atakhanov/Flow.Launcher.Plugin.Pass",
+  "IcoPath": "images\\icon.png",
+  "ExecuteFileName": "main.js"
 }

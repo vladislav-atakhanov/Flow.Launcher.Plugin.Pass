@@ -1,4 +1,0 @@
-pyperclip
-lxml --no-binary=all
-pykeepass
-flox-lib

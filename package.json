@@ -1,0 +1,7 @@
+{
+    "name": "flow-launcher-plugin-pass",
+    "type": "module",
+    "dependencies": {
+        "clipboardy": "^4.0.0"
+    }
+}
